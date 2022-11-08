@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_one_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:background="#FF5722"
+        android:text="Start One Time Work Request" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_periodic_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:background="#2196F3"
+        android:text="Start Periodic Work Request"/>
+</LinearLayout>
+</layout>
